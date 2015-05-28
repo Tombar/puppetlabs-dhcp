@@ -23,7 +23,7 @@ class dhcp (
   $globaloptions       = '',
   $omapi               = false,
   $omapiport           = 7911,
-  $omapikey            = '',
+  $omapikey            = false,
 ) {
 
   if $dnsdomain == undef {
